@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My second assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .font-family{
+        font-family: "Lato", sans-serif;
+    }
+</style>
 </head>
-<body>
+
+<body class="font-family">
     <header>
+        <nav class="bg-[#F85559] text-white md:rounded-full md:mx-20 md:my-4">
+            <div class="navbar flex flex-col items-center md:flex-row justify-around ">
+                <div class=" ">
+                    <ul class="flex md:flex-row gap-8 ">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <img class="h-12 mx-3 md:h-12 md:mx-2"  src="images/logo.png" alt="">
+                    <h1 class="font-bold text-4xl">
+                        Fruit Burst
+
+                    </h1>
+                </div>
+                <div class="">
+                    <div class="form-control ">
+                        <input type="text" placeholder="Search" class="input input-bordered rounded-full 	 w-auto md:w-auto" />
+                    </div>
+
+                </div>
+            </div>
+        </nav>
 
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
-    
+
 </body>
+
 </html>
