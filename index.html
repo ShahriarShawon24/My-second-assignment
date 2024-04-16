@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/64150d2161.js" crossorigin="anonymous"></script>
     <style>
         .font-family {
             font-family: "Lato", sans-serif;
@@ -20,8 +21,9 @@
 </head>
 
 <body class="font-family">
-    <header class="mx-5 my-2 md:mx-20 md:my-4 relative">
+    <header class="mx-5 my-2 md:mx-20 md:my-4 relative ">
         <nav>
+            <!-- drop down navbar -->
             <div class="flex  flex-row-reverse justify-around md:hidden navbar bg-base-100">
                 <div class="navbar-end">
                     <div class="dropdown">
@@ -47,7 +49,31 @@
                 </div>
             </div>
 
-            
+            <!-- navbar for medium and large -->
+            <div class="navbar md:bg-[#F85559] hidden md:flex justify-around rounded-full text-white font-bold">
+                <div class="">
+                    <ul class="md:flex md:gap-4  ">
+                        <li><a class="" href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div>
+                <img class="w-8 h-8 mx-3" src="images/logo.png" alt="">
+                    <h1 class="text-4xl ">Fruit Burst</h1>
+                </div>
+
+                <div class="flex-none gap-2">
+                    <div class="form-control relative">
+                        
+                        <input type="text" placeholder="Search" class="input input-bordered  md:w-auto rounded-full "  />
+                        <i class="fa-solid fa-magnifying-glass md:absolute md:right-3 md:bottom-4 text-black"></i>
+                        
+                    </div>
+                   
+                </div>
+            </div>
 
 
 
